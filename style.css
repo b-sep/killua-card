@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+  font-family: monospace;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: #2b2839;
+  background-color: #ddebf8;
+  border-bottom: 5px solid #d8cefe;
+}
+
+.card:hover {
+  background-color: #2b2839;
+  color: #ddebf8;
+}
+
+.profile-image {
+  width: 200px;
+}
